@@ -1,0 +1,549 @@
+*{
+    font-family: 'Nanum Gothic', sans-serif;;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.section-padding{
+    padding: 150px 0;
+}
+
+/*--------Header----------*/
+header{
+    background-image: url("./top-bg-img.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+/*----------Navbar---------------*/
+
+
+.navbar-brand{
+    width: 150px;
+    background-color: #ffff;
+    padding: 15px;
+    border-radius: 15px;
+    width: 180px;
+}
+.navbar{
+    z-index: 15;
+}
+#home-pg{
+    color: #FD4A18;
+}
+#home-pg:hover{
+    color: white;
+}
+.nav-link{
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+.btn{
+    color: white;
+    background-color: #FD4A18;
+    width: 160px;
+    padding: 15px;
+    font-weight: 700;
+}
+.nav-link:hover{
+    background-color: #FD4A18;
+    color: white;
+    border-radius: 5px;
+}
+.fa-sharp-org{
+       color: #FD4A18;
+}
+.navbar-nav li::before {
+    
+    display: none; 
+   
+}
+
+/*--------------Carousel--------------*/
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.carousel-item{
+    height: 100vh;
+}
+.carousel-caption{
+    bottom: 200px;
+    z-index: 2;
+ }
+.secure {
+    color: #FD4A18;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.carousel-caption h1{
+    color: white;
+    letter-spacing: 25px;
+    margin-top: 35px;
+    font-weight: 700;
+}
+#rdo{
+    width: 150px;
+    padding: 15px;
+    font-size: large;
+    border-radius: 5px;
+    
+}
+#rdo:hover{
+    background-color: white;
+    color: #FD4A18;
+}
+#qwe{
+    width: 150px;
+    background-color: white;
+    color: grey;
+    padding: 15px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+
+
+/*-------------Relationships------------------*/
+
+.relationship2{
+    background-image: url("./one-bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.relationship1 h6{
+    color: #FD4A18;
+    font-weight: 700;
+}
+.relationship1 h1{
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1px;
+    }
+.relationship1 p{
+    color: gray;
+}
+.relationship1  u {
+    text-decoration-color: #FD4A18;
+}
+.card{
+    border: none;
+    }
+.card-body h5{
+    color: #FD4A18;
+    font-size: 15px;
+    font-weight: 400;
+    }
+.card-body h4{
+    font-weight: 600;
+}
+.card-body p{
+    color: gray;
+    }
+.Read {
+    color: #FD4A18;
+    text-decoration: none;
+}
+.Agency{
+    width: 350px;
+    height: 550px;
+    background-color: black;
+    padding: 25px;
+}
+
+.Agency-head{
+    
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 52px;
+}
+.experience{
+    background-color: #FD4A18;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    width: 350px;
+    font-weight: 700;
+}
+.text-white u{
+    text-decoration-color:#FD4A18 ;
+}
+
+/*-----------------Technology---------------------*/
+
+
+.image{
+    position: relative;
+    bottom: 130px;
+    left: 250px;
+}
+.techno h5{
+    color: #FD4A18;
+}
+.techno h1 u{
+    text-decoration-color: #FD4A18;
+}
+.techno p{
+    color: gray;
+}
+.person h4{
+    font-weight: 700;
+}
+.person p {
+    color:#FD4A18 ;
+}
+
+.colla{
+    background-color: #FD4A18;
+    color: white;
+    position: relative;
+    top: 60px;
+    
+}
+.colla-title{
+    font-size: 3.7rem;
+    font-weight: 700;
+}
+.colla-subtitle{
+    font-size: large;
+}
+/*------------------Collaboration-------------------------*/
+.collaboration{
+    background-image: url("./bg-two.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.growth h1{
+    color: white;
+    font-weight: 700;
+}
+.growth h4{
+    color: #FD4A18;
+    font-weight: 700;
+}
+.growth u{
+    text-decoration-color: #FD4A18;
+}
+.colla-card{
+    text-align: center;
+    height: 280px;
+    width: 100%;
+    border-radius: 7px;
+}
+.colla-card img{
+    background-color: #FD4A18;
+}
+.colla-card-title{
+    font-weight: 700;
+}
+.colla-text{
+    font-weight: 400;
+}
+
+
+/*----------------Benefits-----------------------*/
+.benefits{
+    background-color: #FD4A18;
+    color: white;
+    width: 100%;
+    height: 100%;
+    
+}
+.var-list{
+    color: white;
+}
+
+/*--------------------Goals and Values-------------*/
+
+
+.goals h6 {
+    color: #FD4A18;
+    font-weight: 700;
+} 
+.goals h1{
+    font-weight: 700;
+}
+.goals u{
+    text-decoration-color: #FD4A18;
+    
+}
+.goals1{
+    background-color: black;
+    color: white;
+    border-radius: 27px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 8px;
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+}
+.ser1-card-body h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.ser1-card-body p{
+    font-size: 15px;
+    color: gray;
+}
+
+.arrow1{
+    position: relative;
+    top: 50px;
+    width: 100px;
+}
+.arrow2{
+    position: relative;
+    top: 50px;
+    width: 100px;
+}
+.goals2{
+    background-color: black;
+    color: white;
+    border-radius: 27px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 8px;
+    position: relative;
+    left: 80px;
+    bottom: 130px;
+}
+.ser2-card-body h6{
+    font-weight: 700;
+}
+.ser2-card-body p{
+    color: gray;
+}
+.ser3-card-body h6{
+    font-weight: 700;
+}
+.ser3-card-body p{
+    color: gray;
+}
+.ser4-card-body h6{
+    font-weight: 700;
+}
+.ser4-card-body p{
+    color: gray;
+}
+
+/*--------------------Team Members-----------------------------*/
+.Team{
+    background-image: url(./one-bg-img.png);
+}
+.members1{
+    color: #FD4A18;
+    font-weight: 700;
+}
+.members u {
+    text-decoration-color: #FD4A18;
+}
+.team-card-title{
+    font-weight: 700;
+    font-size: large;
+}
+.team-card-subtitle{
+    color: #FD4A18;
+}
+
+/*----------------Award------------------------*/
+.awards h6{
+    color: #FD4A18;
+    font-weight: 700;
+}
+.awards h1{
+    font-weight: 700;
+}
+.awards u{
+    text-decoration-color: #FD4A18;
+}
+
+.row p {
+    font-weight: 700;
+}
+
+
+/*-------------Testimonal------------------------*/
+.testimonal{
+    background-image: url(./bg-two.png);
+    background-position: center;
+    background-size: cover;
+}
+.testimonal2{
+    margin-top: 50pxś;
+}
+.testimonal1 h4{
+    color: #FD4A18;
+    font-weight: 700;
+}
+.testimonal1 h1{
+    color: white;
+    font-weight: 700;
+}
+.testimonal1 u{
+   text-decoration-color: #FD4A18;
+}
+.test-star{
+    width: 100px;
+}
+.card{
+    z-index: 10;
+}
+.bens{
+    width: 100px;
+    height: 83px;
+}
+.test-subtitle{
+    color: gray;
+}
+
+
+/*-------------Business-------------------*/
+
+.business2-title{
+    color: #FD4A18;
+    font-weight: 700;
+}
+.business-subtitle{
+    font-weight: 700;
+}
+.business2 p{
+    color: gray;
+    padding: 5px;
+    text-align: justify;
+    font-size:  18px;
+}
+.progress-bar-title{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 30px;
+}
+.progress-bar{
+    color:white;
+    background-color: #FD4A18;
+}
+.events{
+    background-color: #FD4A18;
+    color: white;
+}
+.account-head{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ffff;
+}
+
+
+/*----------------Blogs---------------------*/
+
+.blogss h6{
+    color: #FD4A18;
+    font-weight: 700;
+}
+.blogss h1{
+    font-weight: 700;
+}
+.blogss u{
+    text-decoration-color: #FD4A18;
+}
+.blogs1{
+    font-weight: 700;
+}
+
+
+/*--------------Contact-----------------------*/
+.contact{
+    background-image: url(./bg-two.png);
+    background-color: rgba(0, 0, 0, 0.926);
+
+}
+.address{
+    position: relative;
+    bottom: 90px;
+    border-radius: 5px;
+}
+.con-title{
+    font-weight: 700;
+}
+.con-subtitle{
+    color: gray;
+    font-size: 17px;
+}
+.lor{
+    color: gray;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#soc-med{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    padding: 18px;
+}
+
+.serv-title{
+    color: white;
+}
+.link-list{
+    line-height: 43px;
+  }
+  .link-item{
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: gray;
+    font-weight: 500;
+    
+  }
+
+  ul li::before {
+    content: "\2022";
+    color:#FD4A18;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: 0;
+  }
+
+  .link-post-img-title{
+    color: gray;
+  }
+
+  .link-post-img-subtitle{
+    color:#FD4A18
+  }
+
+
+  /*----------------Footer-------------------*/
+
+.footer1{
+    color: gray;
+    font-size: 15px;
+}
+.footer2{
+    color: gray;
+    font-size: 25px;
+}
+
